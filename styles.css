@@ -1,0 +1,62 @@
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("R1-09976-0004.JPG");
+  width: 50%;
+}
+
+.container {
+  max-width: 800px;
+  margin: 10em auto;
+  margin-left: 10em;
+  padding: 20px;
+  background-image: url("R1-09976-0004.JPG");
+  border-radius: 15px;
+  border: solid 2px black;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.removeBtn {
+  background-color: rgb(222, 170, 157);
+  margin: 10px;
+}
+h1 {
+  text-align: center;
+  margin: 2em;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+#addTaskBtn {
+  background-color: #c2c7aa;
+  height: 2em;
+  margin: 1em;
+  border-color: bisque;
+}
+#clearBtn {
+  background-color: #cdd6a8;
+  border-color: bisque;
+  height: 2em;
+}
+li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: px solid #eee;
+}
+input[type="text"] {
+  width: 90%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.editBtn {
+  background-color: rgb(141, 193, 176);
+}
+
+.editInput {
+  width: 2em;
+}
